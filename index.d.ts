@@ -98,7 +98,7 @@ export interface ReactPlayerProps {
   [otherProps: string]: any;
 }
 
-export default class ReactPlayer extends React.Component<ReactPlayerProps, any> {
+export class ReactPlayer extends React.Component<ReactPlayerProps, any> {
   static canPlay(url: string): boolean;
   seekTo(fraction: number): void;
   getCurrentTime(): number;
