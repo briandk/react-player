@@ -32,6 +32,16 @@ npm install react-player --save
 yarn add react-player
 ```
 
+#### TypeScript with [esModuleInterop][1]:
+
+```ts
+
+```
+
+[1]: https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-7.html#support-for-import-d-from-cjs-form-commonjs-modules-with---esmoduleinterop
+
+#### JavaScript
+
 ```js
 import React, { Component } from 'react'
 import ReactPlayer from 'react-player'
